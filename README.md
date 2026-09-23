@@ -56,12 +56,53 @@ Hello World
 
 ### Project Structure
 
+```text
 SCT_CS_01/
 ├── caesar_cipher.py
 ├── README.md
 ├── 01_ciphertool_ui..png
 ├── 02_encryption_demo..png
 └── 03_decryption_demo..png
+```
+
+## Screenshots
+
+### Application Interface
+![CipherGuard UI](01_ciphertool_ui..png)
+
+### Encryption Demo
+![Encryption Demo](02_encryption_demo..png)
+
+### Decryption Demo
+![Decryption Demo](03_decryption_demo..png)
+
+## How It Works
+
+The application uses the Caesar Cipher technique to shift alphabetic characters by a user-defined value.
+
+- **Encryption:** Each letter is shifted forward by the selected shift value.
+- **Decryption:** Each letter is shifted backward by the selected shift value.
+- Uppercase and lowercase letters are handled separately.
+- Spaces, numbers, and special characters remain unchanged.
+- The shift wraps around the alphabet using modulo 26.
+  
+  ## Learning Outcomes
+
+Through this project, I gained practical experience in:
+
+- Python programming
+- Tkinter GUI development
+- Caesar Cipher and classical cryptography
+- Encryption and decryption logic
+- Modular arithmetic
+- Event-driven programming
+- Designing a user-friendly desktop application
+  
+ ## Technologies Used
+
+- Python 3
+- Tkinter
+- Classical Cryptography
 
 
 ### Note
