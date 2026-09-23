@@ -55,11 +55,14 @@ Hello World
 ```
 
 ### Project Structure
-```text
-SCT_CyberSecurity_Task01_CaesarCipher/
+
+SCT_CS_01/
 ├── caesar_cipher.py
-└── README.md
-```
+├── README.md
+├── 01_ciphertool_ui..png
+├── 02_encryption_demo..png
+└── 03_decryption_demo..png
+
 
 ### Note
 Caesar Cipher is a classical educational cipher and should not be used for protecting sensitive real-world information.
